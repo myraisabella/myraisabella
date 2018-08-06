@@ -1,0 +1,31 @@
+html, body {
+	postiion: relative;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Source Code Pro', monospace;
+	color: #838383;
+}
+
+h1 {
+	margin-top: 0.25em;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.wide-spacing {
+	letter-spacing: .5em;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+	transition: all .5s linear;
+}
+a:hover {
+	opacity: .5;
+}
